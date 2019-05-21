@@ -2,11 +2,11 @@
 public class Name {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		getName("Alicia");
+		getName("Alicia", "Price");
 	}
-	public static String getName(String name) {
-		System.out.println("Tu nombre es " + name);
-		return name;
+	public static String getName(String name, String apellido) {
+		System.out.println("Tu nombre completo es " + name + " " + apellido);
+		return name + " " + apellido;
 	}
 
 }
